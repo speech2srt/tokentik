@@ -30,6 +30,10 @@ export TIKTOKEN_CACHE_DIR="/path/to/your/models/tiktoken"
 
 This is highly recommended for production environments or Cloud Run environments where the storage might be mounted (e.g., at `/mnt/models/tiktoken`).
 
+## Acknowledgments
+
+Special thanks to [OpenAI](https://openai.com/) for their [tiktoken](https://github.com/openai/tiktoken) library, which this utility is built upon.
+
 ## License
 
 MIT
