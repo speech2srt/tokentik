@@ -13,7 +13,7 @@ pip install tokentik
 ```python
 from tokentik import count_tokens
 
-text = "Hello, world! 你好，世界！"
+text = "Hello, world!"
 token_count = count_tokens(text)
 print(f"Token count: {token_count}")
 ```
@@ -33,6 +33,3 @@ This is highly recommended for production environments or Cloud Run environments
 ## License
 
 MIT
-
----
-Created at: 2026-01-13 01:33 (Europe/Athens)
