@@ -4,7 +4,7 @@ Tokentik - A simple utility to estimate token counts for text using tiktoken.
 
 import tiktoken
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 def count_tokens(text: str, model: str = "o200k_base") -> int:

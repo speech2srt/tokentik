@@ -14,8 +14,14 @@ pip install tokentik
 from tokentik import count_tokens
 
 text = "Hello, world!"
+
+# Estimate tokens using the default 'o200k_base' encoding (GPT-4o)
 token_count = count_tokens(text)
 print(f"Token count: {token_count}")
+
+# Specify a different encoding model (e.g., 'cl100k_base' for GPT-4/GPT-3.5)
+token_count_v2 = count_tokens(text, model="cl100k_base")
+print(f"Token count (cl100k_base): {token_count_v2}")
 ```
 
 ## Configuration
