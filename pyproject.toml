@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=80.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tokentik"
+version = "0.1.0"
+description = "A simple utility to estimate token counts using tiktoken o200k_base"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "tiktoken>=0.7.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/speech2srt/tokentik"
+Repository = "https://github.com/speech2srt/tokentik"
+Issues = "https://github.com/speech2srt/tokentik/issues"
+
+[tool.setuptools]
+package-dir = {"tokentik" = "src"}
+packages = ["tokentik"]
